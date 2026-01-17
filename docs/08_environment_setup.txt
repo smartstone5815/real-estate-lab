@@ -1,0 +1,15 @@
+[환경 구축 가이드: 가상환경 독립화]
+
+철학: 프로젝트별 독립된 가상환경(venv)을 사용하여 버전 충돌을 방지함.
+
+절차:
+
+프로젝트 루트에서 venv 생성.
+python3 -m venv venv
+source venv/bin/activate
+
+활성화 후 requirements.txt에 명시된 라이브러리만 설치.
+
+이점: Render 배포 시 라이브러리 의존성 파악이 용이함.
+
+이제 가상환경을 활성화하신 후 pip install streamlit을 진행해 보시겠어요? 설치가 끝나면 바로 웹 실행으로 넘어가겠습니다!
